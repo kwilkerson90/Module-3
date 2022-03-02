@@ -7,3 +7,6 @@ li {
     background-color: orange;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+img {
+    float: right;
+}
