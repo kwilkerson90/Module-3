@@ -1,3 +1,9 @@
 body {
     background-color:cyan;
 }
+
+li {
+    font-size: 18px;
+    background-color: orange;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
