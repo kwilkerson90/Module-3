@@ -1,0 +1,60 @@
+/* Sidebar menu */
+.sidenav {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+/* Navigation Menu Links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+    display: block;
+}
+/* Page Content */
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+h1 {
+    font-size: 60px;
+}
+h1 {
+    font-family:'BhuTuka Expanded One', cursive
+}
+h1 {
+    color:darkgray;
+}
+h2 {
+    color:darkgray;
+}
+body {
+    background-color: rgb(67, 67, 148);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+/*This section styles for two equal columns that are side by side */
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
