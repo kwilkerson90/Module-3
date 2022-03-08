@@ -1,0 +1,26 @@
+/* Practicing Building the Fenty Beauty website */
+
+.wrapper {
+    white-space: nowrap;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.side-by-side {
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    background-color: palevioletred;
+    margin-right: 0 auto;
+    vertical-align: top;
+    position: static;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/*Trying to fix the whitespace in the top bars and the excess pink background*/

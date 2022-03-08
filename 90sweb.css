@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+    justify-content: space-around;
+    background-color: gray; opacity: 75%;
+}
+body{
+    background-color: rgb(99, 126, 177);
+}
+.flex-container {
+    border: dotted 2px;
+}
