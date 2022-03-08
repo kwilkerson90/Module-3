@@ -1,0 +1,19 @@
+.flex-container {
+    display:flex;
+    justify-content: center;
+    margin: 100px;
+    width: 500px;
+    height: 500px;
+    padding: 80px;
+    position: relative;
+    left: 150px;
+    border: 25px solid salmon;
+}
+div {
+    align-items: center;
+    justify-content: center;
+    position: absolute; /* You set the position to center the item vertically and horizontally */ 
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -50px; /*You apply negative top and left margins to actually center the item */
+}
