@@ -1,0 +1,121 @@
+@media screen and (min-width: 480px) {
+    #navbar {
+        width: 200px;
+        float: left;
+    }
+    #main {margin-left: 216px;}
+}
+/* Add a green background color to the top nav */
+.navbar {
+    background-color: #82ac7c;
+    overflow: hidden;
+}
+/* Style the links inside the nav bar */
+.navbar a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+/* Trying to add space between the words in the navbar, but not including the title
+.navbar {
+    word-spacing: 5px;
+}
+*/
+body {
+    background-color: #FFEFC8;
+}
+img {
+    border: 3px solid gray;
+}
+
+.block2 {
+    display: flex;
+    background-color: #A88C7D;
+    width: 400px;
+    height: 150px;
+    position: relative;
+    left: 390px;
+    bottom: 300px;
+    opacity: 0.7;
+}
+.p1 {
+    font-size: 20px;
+    color: whitesmoke;
+}
+.p2 {
+    font-size: 20px;
+    color: whitesmoke;
+}
+.p3 {
+    font-size: 20px;
+    color: whitesmoke;
+}
+.babyblocks {
+    display: flex;
+    width: 900px;
+    height: 200px;
+    position: relative;
+    left: 380px;
+    bottom: 230px;
+    justify-content: space-evenly;
+}
+.babyblocks div {
+    width: 180px;
+    height: 150px;
+    background-color: #7297A0;
+}
+.nextblocks {
+    display: flex;
+    width: 800px;
+    height: 200px;
+    position: relative;
+    left: 200px;
+    top: -180px;
+    justify-content: space-evenly;
+}
+.nextblocks div {
+    width: 300px;
+    height: 180px;
+    background-color: #54738E;
+    line-height: 180px;
+}
+.medblock {
+    display: flex;
+    position: relative;
+    top: -100px;  
+}
+.smallblock {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 450px;
+    bottom: 400px;
+    background-color: #9dba94;
+    justify-content: center;
+    padding: 50px 0;
+}
+.p4 {
+    font-size: 20px;
+    color: whitesmoke;
+}
+.rectangle {
+    display: flex;
+    width: 500px;
+    height: 100px;
+    position: relative;
+    left: 800px;
+    bottom: 390px; 
+    justify-content: center;
+    padding: 40px 0;    
+    transform: rotate(90deg);
+    background-color: #A88C7D;
+    opacity: 0.7;
+}
+.p5 {
+    font-size: 35px;
+    color: whitesmoke;
+}
